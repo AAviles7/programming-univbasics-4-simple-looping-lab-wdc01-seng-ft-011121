@@ -4,4 +4,7 @@ def loop_message_five_times(array)
   
 end
 
-def 
+def loop_message_n_times(array, n)
+  
+end
+
