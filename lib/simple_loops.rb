@@ -30,7 +30,7 @@ def return_string_array(array)
   c = 0
   while c < l do
     s = array.shift
-    new.push(s.to_s)
+    final.push(s.to_s)
     c += 1
   end
   return final
