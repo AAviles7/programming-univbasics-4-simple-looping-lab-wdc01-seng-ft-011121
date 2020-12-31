@@ -25,7 +25,7 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  new = []
+  new = Array.new
   l = array.length
   c = 0
   while c < l do
