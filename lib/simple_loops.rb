@@ -32,4 +32,5 @@ def return_string_array(array)
     new.push(s.to_s)
     c += 1
   end
+  return new
 end
