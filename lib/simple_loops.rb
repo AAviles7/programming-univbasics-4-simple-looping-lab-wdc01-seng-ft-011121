@@ -3,7 +3,7 @@
 def loop_message_five_times(string)
   c = 0
   while c < 5 do
-    puts array[c]
+    puts string
     c += 1
   end
 end
