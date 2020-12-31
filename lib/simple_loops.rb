@@ -1,6 +1,6 @@
 # Write your methods here
 
-def loop_message_five_times(array)
+def loop_message_five_times(string)
   c = 0
   while array[c] do
     puts array[c]
@@ -9,7 +9,8 @@ def loop_message_five_times(array)
 end
 
 def loop_message_n_times(array, n)
-  while array[n] do
+  c = 0
+  while c != n do
     puts array[c]
     c += 1
   end
