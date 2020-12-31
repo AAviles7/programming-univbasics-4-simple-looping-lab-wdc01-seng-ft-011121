@@ -26,7 +26,7 @@ end
 
 def return_string_array(array)
   new = []
-  c = 0
+  c = array.length
   while array[c] do
     s = array.shift
     new.push(s.to_s)
