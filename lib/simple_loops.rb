@@ -25,5 +25,8 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  return array
+  new = []
+  c = 0
+  while array[0] do
+    
 end
