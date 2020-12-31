@@ -25,7 +25,7 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  new = Array.new
+  final = Array.new
   l = array.length
   c = 0
   while c < l do
@@ -33,5 +33,5 @@ def return_string_array(array)
     new.push(s.to_s)
     c += 1
   end
-  return new
+  return final
 end
